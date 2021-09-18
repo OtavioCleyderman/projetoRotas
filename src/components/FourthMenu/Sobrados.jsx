@@ -1,18 +1,18 @@
 import React from 'react'
-// import sobrado from '../images/sobrado.jpg'
+import sobrados from '../../assets/sobrados.jpg'
 import { Link } from "react-router-dom";
+import { Content, ContainerButton, ContainerImage } from './styles'
 
 export default function Sobrado() {
     return (
-        <div className="body">
-            <div className="imagem-container">
-            {/* <img src={sobrado} alt="sobrado " className="capitaimg"></img> */}
-            </div>
-            <div className="inicio">
-            <Link to = "/pacaembu/villadicapri"> Voltar </Link>
-            <Link to = "/"> Menu principal </Link>
-            </div>
-        </div>
+        <Content>
+            <ContainerImage >
+                <img style={{ width: '40.0rem', height: '30.0rem' }} src={sobrados} alt="Sobrados" ></img>
+            </ContainerImage>
+            <ContainerButton >
+                <Link style={{ textDecoration: 'none', color: 'black', fontWeight: 'bold', fontSize: '1.4rem' }} to="/pacaembu/villadicapri/projetosmodelo"> Voltar </Link>
+            </ContainerButton>
+        </Content>
     )
 
 }

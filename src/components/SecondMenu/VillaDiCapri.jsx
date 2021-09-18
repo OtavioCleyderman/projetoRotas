@@ -1,17 +1,18 @@
 import React from 'react'
-// import villaDiCapri from '../images/villaDiCapri.webp'
+import villaDiCapri from '../../assets/villadicapri.png'
 import { Link } from "react-router-dom";
+import { Content, ContainerButton, ContainerImage } from './styles'
 
 export default function VillaDiCapri() {
     return (
-        <div>
-            <div className="imagem-container">
-            {/* <img src={villaDiCapri} alt="villaDiCapri" className="fazimg"></img> */}
-            </div>
-            <div className="inicio">
-            <Link to = "/"> Voltar </Link>
-            </div>
-        </div>
+        <Content>
+            <ContainerImage >
+                <img style={{ width: '40.0rem', height: '30.0rem' }} src={villaDiCapri} alt="Villa Di Capri" ></img>
+            </ContainerImage>
+            <ContainerButton >
+                <Link style={{ textDecoration: 'none', color: 'black', fontWeight: 'bold', fontSize: '1.4rem' }} to="/pacaembu"> Voltar </Link>
+            </ContainerButton>
+        </Content>
     )
 
 }

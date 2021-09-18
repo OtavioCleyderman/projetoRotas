@@ -1,18 +1,18 @@
 import React from 'react'
-// import corretores from '../images/corretores.webp'
+import corretores from '../../assets/corretores.jpg'
 import { Link } from "react-router-dom";
+import { Content, ContainerButton, ContainerImage } from './styles'
 
 export default function Corretores() {
     return (
-        <div className="body">
-            <div className="imagem-container">
-            {/* <img src={corretores} alt="corretores " className="balancimg"></img> */}
-            </div>
-            <div className="inicio">
-            <Link to = "/pacaembu"> Voltar </Link>
-            <Link to = "/"> Menu principal </Link>
-            </div>
-        </div>
+        <Content>
+            <ContainerImage >
+                <img style={{ width: '40.0rem', height: '30.0rem' }} src={corretores} alt="Corretores" ></img>
+            </ContainerImage>
+            <ContainerButton >
+                <Link style={{ textDecoration: 'none', color: 'black', fontWeight: 'bold', fontSize: '1.4rem' }} to="/pacaembu/villadicapri"> Voltar </Link>
+            </ContainerButton>
+        </Content>
     )
 
 }
