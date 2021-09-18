@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/projetoRotas/static/js/main.e3e82519.chunk.js",
+    "main.js.map": "/projetoRotas/static/js/main.e3e82519.chunk.js.map",
+    "runtime-main.js": "/projetoRotas/static/js/runtime-main.b36d24df.js",
+    "runtime-main.js.map": "/projetoRotas/static/js/runtime-main.b36d24df.js.map",
+    "static/js/2.a53c88f4.chunk.js": "/projetoRotas/static/js/2.a53c88f4.chunk.js",
+    "static/js/2.a53c88f4.chunk.js.map": "/projetoRotas/static/js/2.a53c88f4.chunk.js.map",
+    "index.html": "/projetoRotas/index.html",
+    "static/js/2.a53c88f4.chunk.js.LICENSE.txt": "/projetoRotas/static/js/2.a53c88f4.chunk.js.LICENSE.txt",
+    "static/media/apartamentos.0e57a106.jpg": "/projetoRotas/static/media/apartamentos.0e57a106.jpg",
+    "static/media/empreendimentoimobiliario.ee10c45c.jpg": "/projetoRotas/static/media/empreendimentoimobiliario.ee10c45c.jpg",
+    "static/media/mrv.e49cb71c.jpg": "/projetoRotas/static/media/mrv.e49cb71c.jpg",
+    "static/media/pacaembu.d3138d04.jpg": "/projetoRotas/static/media/pacaembu.d3138d04.jpg",
+    "static/media/parra.caf4fe03.jpg": "/projetoRotas/static/media/parra.caf4fe03.jpg",
+    "static/media/projetosmodelo.7048d789.jpg": "/projetoRotas/static/media/projetosmodelo.7048d789.jpg",
+    "static/media/quintadoeste.e9cf1218.jpg": "/projetoRotas/static/media/quintadoeste.e9cf1218.jpg",
+    "static/media/villadicapri.8c35bcbf.png": "/projetoRotas/static/media/villadicapri.8c35bcbf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b36d24df.js",
+    "static/js/2.a53c88f4.chunk.js",
+    "static/js/main.e3e82519.chunk.js"
+  ]
+}
